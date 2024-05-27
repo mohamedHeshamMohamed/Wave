@@ -1,0 +1,44 @@
+
+.card {margin: auto;
+    margin-top: 3rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+   
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 350px; /* Adjust the width as needed */
+}
+
+.card-img-top {
+    transition: transform .2s;
+    width: 100%; /* Make the image fit the card's width */
+    height: 600px; /* Set a fixed height for the image */
+    object-fit: cover; /* This ensures the image covers the entire area, maintaining aspect ratio and cropping if necessary */
+    
+}
+.card-img-top:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+.card-body {
+    padding: 10px;
+}
+
+.card-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+    
+}
+
+.card-text {
+    font-size: 20px;
+    color: #000000;
+}
+#uploadedImages {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+
+
+        
