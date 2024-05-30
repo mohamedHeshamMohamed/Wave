@@ -27,6 +27,8 @@ label {
 
 input[type="text"],
 input[type="password"],
+input[type="number"],
+input[type="file"],
 button {
     width: 100%;
     padding: 10px;
