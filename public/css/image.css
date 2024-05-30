@@ -1,14 +1,13 @@
-
-.card {margin: auto;
+.card {
+    margin: auto;
     margin-top: 3rem;
     border: 1px solid #ddd;
     border-radius: 4px;
-   
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    width: 350px; /* Adjust the width as needed */
+    width: 90%; /* Adjusted for responsiveness */
+    max-width: 350px;
 }
-
 .card-img-top {
     transition: transform .2s;
     width: 100%; /* Make the image fit the card's width */
@@ -41,4 +40,27 @@
 
 
 
-        
+        /* Media Queries for Responsive Design */
+@media (min-width: 576px) {
+    .card {
+        width: 80%; /* Adjusted for responsiveness */
+    }
+}
+
+@media (min-width: 768px) {
+    .card {
+        width: 70%; /* Adjusted for responsiveness */
+    }
+}
+
+@media (min-width: 992px) {
+    .card {
+        width: 60%; /* Adjusted for responsiveness */
+    }
+}
+
+@media (min-width: 1200px) {
+    .card {
+        width: 50%; /* Adjusted for responsiveness */
+    }
+}
