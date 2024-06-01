@@ -157,6 +157,7 @@ app.post('/upload', upload.single('image'), async (req, res) => {
   }
 });
 
+
 // Serve the index.html page
 app.get('/index', (req, res) => {
   res.sendFile(path.join(__dirname, 'n', 'index.html'));
